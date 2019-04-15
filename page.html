@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,36 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Practice Assignment 2</title>
 </head>
+
 <body>
-
-
-
-<!-- jQuery -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<!-- Bootstrap JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Your JavaScript goes here -->
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1><big><strong>Welcome to Joani's Coffee Shop</strong></big></h1>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Your JavaScript goes here -->
+    <script>
+        // 2. Add JavaScript to page.html that includes 2 prompts for input from the user. Store each value in a variable. Place the script after the jQuery and Bootstrap JavaScript code. 
+        let drink = prompt("Would you like an espresso or coffee?");
+        let caffeine = prompt("Would you like your beverage caffeinated or decaf?");
+        // 4. Using 2 more prompts, ask the user to enter integer values. Store each value in a variable.
+        let espresso = parseInt(prompt("How many espresso's would you like?"));
+        let coffee = parseInt(prompt("How many cups of coffee would you like?"));
+        // Add code to add these 2 values together and display the result the JavaScript console using console.log().
+        let total = espresso + coffee;
+        console.log("You ordered a total of " + total + " .");
+        // 3. Concatenate these 2 (drink and Caffeine) input values together and display the result in an alert box.
+        alert("Thank you for your order. Your " + caffeine + ' ' + drink + " will be ready soon!");
+    </script>
 </body>
+
 </html>

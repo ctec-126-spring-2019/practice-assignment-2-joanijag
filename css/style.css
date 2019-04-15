@@ -1,7 +1,24 @@
 /* style.css */
 
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('coffeeShop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+.container{
+    margin: 0 auto;
+}
+.row{
+   padding-top: 150px;
+}
+h1{
+   color: #ffcc99;
+   font-size: 3em; 
+   
+}
+
+ 
